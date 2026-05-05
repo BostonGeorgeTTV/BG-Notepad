@@ -165,7 +165,7 @@ exports.bg_notepad:openNotepad({})
 ```lua
 {
     mode = 'view',
-    title = 'MemoryRp',
+    title = 'NOMESERVER',
     object = 'Testo del biglietto',
     save = 'Nome Player' -- oppure 'Anonimo'
 }
