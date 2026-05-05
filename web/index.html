@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Notepad</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="page" id="page">
+            <h1 class="page-title" id="page-title">Notepad</h1>
+            <div class="header text">
+                <p>Area di testo</p>
+            </div>
+            <div class="text-container">
+                <textarea class="textarea" id="textarea" name="Text" wrap="soft" required placeholder="object of the notepad"></textarea>
+            </div>
+            <div class="save-formation">
+                <button class="button" id="button">Salva</button>
+            </div>
+        </div>
+
+        <div class="print-dialog" id="print-dialog">
+            <div class="print-dialog-box">
+                <h2>Firma biglietto</h2>
+                <p>Vuoi stampare il biglietto in forma anonima?</p>
+                <div class="print-dialog-actions">
+                    <button class="dialog-button" id="print-name">Usa il mio nome</button>
+                    <button class="dialog-button" id="print-anonymous">Anonimo</button>
+                    <button class="dialog-button secondary" id="print-cancel">Annulla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
