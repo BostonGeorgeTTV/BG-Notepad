@@ -37,6 +37,8 @@ Resource notepad compatibile con ESX, QBCore e qbox.
 
 ## Configurazione
 
+Modifica il nome della cartella in `bg_notepad`.
+
 Modifica `shared/config.lua` se non vuoi usare il rilevamento automatico.
 
 ```lua
